@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,89 +14,110 @@
             color: #333;
             scroll-behavior: smooth;
         }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
+
         header {
             background-color: #fff;
             padding: 1rem 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
         }
+
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 0 2rem;
         }
+
         nav .logo {
             font-size: 1.5rem;
             font-weight: bold;
         }
+
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
             display: flex;
         }
+
         nav ul li {
             margin-left: 2rem;
         }
+
         nav ul li a {
             text-decoration: none;
             color: #333;
             font-weight: 500;
             transition: color 0.3s;
         }
+
         nav ul li a:hover {
             color: #007bff;
         }
+
         section {
             padding: 6rem 0;
             border-bottom: 1px solid #ddd;
         }
+
         .hero {
             background: linear-gradient(to right, #6a11cb, #2575fc);
             color: white;
             text-align: center;
             padding: 8rem 0;
-            margin-top: 60px; /* Adjust for fixed header */
+            margin-top: 60px;
+            /* Adjust for fixed header */
         }
+
         .hero h1 {
             font-size: 3rem;
             margin: 0;
         }
+
         .hero p {
             font-size: 1.2rem;
             margin: 1rem 0 0;
         }
-        .about, .projects, .contact {
+
+        .about,
+        .projects,
+        .contact {
             background-color: #fff;
         }
+
         h2 {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 3rem;
         }
+
         .about-content {
             display: flex;
             align-items: center;
             gap: 2rem;
         }
+
         .about-content img {
             width: 200px;
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
         }
+
         .skills {
             margin-top: 2rem;
         }
+
         .skills ul {
             list-style: none;
             padding: 0;
@@ -104,51 +126,62 @@
             gap: 1rem;
             justify-content: center;
         }
+
         .skills li {
             background-color: #e4e4e4;
             padding: 0.5rem 1rem;
             border-radius: 5px;
         }
+
         .project-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
+
         .project-card {
             background-color: #f9f9f9;
             border: 1px solid #eee;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
+
         .project-card:hover {
             transform: translateY(-5px);
         }
+
         .project-card img {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
+
         .project-card-content {
             padding: 1.5rem;
         }
+
         .project-card h3 {
             margin-top: 0;
         }
+
         form {
             display: flex;
             flex-direction: column;
             max-width: 600px;
             margin: 0 auto;
         }
-        form input, form textarea {
+
+        form input,
+        form textarea {
             padding: 0.8rem;
             margin-bottom: 1rem;
             border: 1px solid #ccc;
             border-radius: 5px;
             font-size: 1rem;
         }
+
         form button {
             padding: 1rem;
             background-color: #007bff;
@@ -159,9 +192,11 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         form button:hover {
             background-color: #0056b3;
         }
+
         footer {
             background-color: #333;
             color: white;
@@ -170,6 +205,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -196,7 +232,9 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <img src="https://placehold.co/200x200/6a11cb/white?text=JD" alt="John Doe">
-                <p>Hello! I'm John Doe, a software engineer based in New York, NY. I have a passion for web development and love to create for the web. I have experience in developing and designing high-quality websites and applications. I'm a quick learner and always looking to expand my knowledge and skill set.</p>
+                <p>Hello! I'm John Doe, a software engineer based in New York, NY. I have a passion for web development
+                    and love to create for the web. I have experience in developing and designing high-quality websites
+                    and applications. I'm a quick learner and always looking to expand my knowledge and skill set.</p>
             </div>
             <div class="skills">
                 <h3>My Skills</h3>
@@ -220,7 +258,8 @@
                     <img src="https://placehold.co/600x400/2575fc/white?text=Project+1" alt="Project 1">
                     <div class="project-card-content">
                         <h3>Project One</h3>
-                        <p>A brief description of the project. What it does, the technologies used, and the role you played.</p>
+                        <p>A brief description of the project. What it does, the technologies used, and the role you
+                            played.</p>
                         <a href="#">View Project</a>
                     </div>
                 </div>
@@ -228,7 +267,8 @@
                     <img src="https://placehold.co/600x400/6a11cb/white?text=Project+2" alt="Project 2">
                     <div class="project-card-content">
                         <h3>Project Two</h3>
-                        <p>A brief description of the project. What it does, the technologies used, and the role you played.</p>
+                        <p>A brief description of the project. What it does, the technologies used, and the role you
+                            played.</p>
                         <a href="#">View Project</a>
                     </div>
                 </div>
@@ -236,7 +276,8 @@
                     <img src="https://placehold.co/600x400/2575fc/white?text=Project+3" alt="Project 3">
                     <div class="project-card-content">
                         <h3>Project Three</h3>
-                        <p>A brief description of the project. What it does, the technologies used, and the role you played.</p>
+                        <p>A brief description of the project. What it does, the technologies used, and the role you
+                            played.</p>
                         <a href="#">View Project</a>
                     </div>
                 </div>
@@ -274,13 +315,33 @@
         });
 
         // Contact form submission
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
+        // Contact form submission
+        document.getElementById('contact-form').addEventListener('submit', async function (e) {
             e.preventDefault();
-            // Here you would typically send the form data to a server
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
+            const name = this.querySelector('input[name="name"]').value;
+            const email = this.querySelector('input[name="email"]').value;
+            const message = this.querySelector('textarea[name="message"]').value;
+
+            try {
+                const res = await fetch("http://localhost:5000/send", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name, email, message })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    alert('✅ Message Sent Successfully!');
+                    this.reset();
+                } else {
+                    alert('❌ Failed to send message.');
+                }
+            } catch (err) {
+                console.error(err);
+                alert('⚠️ Error connecting to server.');
+            }
         });
     </script>
 
 </body>
+
 </html>
